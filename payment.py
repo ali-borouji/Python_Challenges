@@ -1,15 +1,16 @@
 print('Hello Dear')
 print('Hopefully this payment method seems fair enough!')
-h = float(input('Please Enter The Hours Wasted!:'))
+h = float(input('Please Enter The Hours Wasted This Month!:'))
 r = float(input('How much do you charge your boss per hour? :D'))
-if h <= 40:
+if h <= 160:
   print('You really care about the Life-Work balance, huh?')
   pay = (h * r)
-  print('That is what you get', $ pay)
+  print('That is what you get', pay)
 else:
-  h > 40
+  h > 160
   print('you work so hard!')
-  oh = h - 40
-  pay = ((40 * r) + oh * r * 1.5)
-  print('Is it worth it?!', $ pay)
+  oh = h - 160
+  pay = ((160 * r) + oh * r * 1.5)
+  print(pay)
+  yn = input('Is it worth it?!')
   print('Oh I forgot to mention. This is your gross payment! Good luck.')
