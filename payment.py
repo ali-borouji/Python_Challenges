@@ -5,12 +5,12 @@ r = float(input('How much do you charge your boss per hour? :D'))
 if h <= 160:
   print('You really care about the Life-Work balance, huh?')
   pay = (h * r)
-  print('That is what you get', pay)
+  print('That is what you get $', pay)
 else:
   h > 160
   print('you work so hard!')
   oh = h - 160
   pay = ((160 * r) + oh * r * 1.5)
-  print(pay)
+  print('$', pay)
   yn = input('Is it worth it?!')
   print('Oh I forgot to mention. This is your gross payment! Good luck.')
